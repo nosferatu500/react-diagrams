@@ -1,4 +1,4 @@
-import * as SRD from '@projectstorm/react-diagrams';
+import * as SRD from '@nosferatu500/react-diagrams';
 
 /**
  * @author Dylan Vorster

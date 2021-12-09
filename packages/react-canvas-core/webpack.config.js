@@ -3,6 +3,6 @@ module.exports = {
 	...config,
 	output: {
 		...config.output,
-		library: 'projectstorm/react-canvas-core'
+		library: 'nosferatu500/react-canvas-core'
 	}
 };

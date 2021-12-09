@@ -1,12 +1,12 @@
 # Introduction
 
-[![Join the chat at https://gitter.im/projectstorm/react-diagrams](https://badges.gitter.im/projectstorm/react-diagrams.svg)](https://gitter.im/projectstorm/react-diagrams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![NPM](https://img.shields.io/npm/v/@projectstorm/react-diagrams.svg)](https://npmjs.org/package/@projectstorm/react-diagrams) [![Package Quality](https://npm.packagequality.com/shield/storm-react-diagrams.svg)](https://packagequality.com/#?package=storm-react-diagrams) [![CircleCI](https://circleci.com/gh/projectstorm/react-diagrams/tree/master.svg?style=svg)](https://circleci.com/gh/projectstorm/react-diagrams/tree/master) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+[![Join the chat at https://gitter.im/nosferatu500/react-diagrams](https://badges.gitter.im/nosferatu500/react-diagrams.svg)](https://gitter.im/nosferatu500/react-diagrams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![NPM](https://img.shields.io/npm/v/@nosferatu500/react-diagrams.svg)](https://npmjs.org/package/@nosferatu500/react-diagrams) [![Package Quality](https://npm.packagequality.com/shield/storm-react-diagrams.svg)](https://packagequality.com/#?package=storm-react-diagrams) [![CircleCI](https://circleci.com/gh/nosferatu500/react-diagrams/tree/master.svg?style=svg)](https://circleci.com/gh/nosferatu500/react-diagrams/tree/master) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 ![](.gitbook/assets/logo.jpg)
 
-**DEMO**: [http://projectstorm.cloud/react-diagrams](http://projectstorm.cloud/react-diagrams)
+**DEMO**: [http://nosferatu500.cloud/react-diagrams](http://nosferatu500.cloud/react-diagrams)
 
-**DOCS \(wip\)** [https://projectstorm.gitbook.io/react-diagrams](https://projectstorm.gitbook.io/react-diagrams)
+**DOCS \(wip\)** [https://nosferatu500.gitbook.io/react-diagrams](https://nosferatu500.gitbook.io/react-diagrams)
 
 Docs are currently being worked on, along with a migration path.
 
@@ -36,7 +36,7 @@ Get started with the default models right out of the box:
 For all the bells and whistles:
 
 ```text
-yarn add @projectstorm/react-diagrams
+yarn add @nosferatu500/react-diagrams
 ```
 
 This includes all the packages listed below \(and works \(mostly and conceptually\) like it used to in version 5.0\)
@@ -46,26 +46,26 @@ This includes all the packages listed below \(and works \(mostly and conceptuall
 This library now has a more modular design and you can import just the core \(contains no default factories or routing\)
 
 ```text
-yarn add @projectstorm/react-diagrams-core
+yarn add @nosferatu500/react-diagrams-core
 ```
 
 this is built ontop of the evolving **react-canvas-core** library
 
 ```text
-yarn add @projectstorm/react-canvas-core
+yarn add @nosferatu500/react-canvas-core
 ```
 
 which makes use of
 
 ```text
-yarn add @projectstorm/geometry
+yarn add @nosferatu500/geometry
 ```
 
 and of course, you can add some extras:
 
 ```text
-yarn add @projectstorm/react-diagrams-defaults
-yarn add @projectstorm/react-diagrams-routing
+yarn add @nosferatu500/react-diagrams-defaults
+yarn add @nosferatu500/react-diagrams-routing
 ```
 
 ## How to use
@@ -73,15 +73,15 @@ yarn add @projectstorm/react-diagrams-routing
 Before running any of the examples, please run `yarn build` in the root. This project is a monorepo, and the packages (including the demos) require the packages to first be built.
 
 
-Take a look at the [diagram demos](https://github.com/projectstorm/react-diagrams/tree/master/diagrams-demo-gallery/demos)
+Take a look at the [diagram demos](https://github.com/nosferatu500/react-diagrams/tree/master/diagrams-demo-gallery/demos)
 
 **or**
 
-Take a look at the [demo project](https://github.com/projectstorm/react-diagrams/tree/master/diagrams-demo-project) which contains an example for ES6 as well as Typescript
+Take a look at the [demo project](https://github.com/nosferatu500/react-diagrams/tree/master/diagrams-demo-project) which contains an example for ES6 as well as Typescript
 
 **or**
 
-[Checkout the docs](https://projectstorm.gitbook.io/react-diagrams/)
+[Checkout the docs](https://nosferatu500.gitbook.io/react-diagrams/)
 
 ## Run the demos
 

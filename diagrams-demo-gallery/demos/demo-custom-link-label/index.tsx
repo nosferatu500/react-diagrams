@@ -1,6 +1,6 @@
 import * as React from 'react';
-import createEngine, { DefaultNodeModel, DiagramModel } from '@projectstorm/react-diagrams';
-import { CanvasWidget } from '@projectstorm/react-canvas-core';
+import createEngine, { DefaultNodeModel, DiagramModel } from '@nosferatu500/react-diagrams';
+import { CanvasWidget } from '@nosferatu500/react-canvas-core';
 import { DemoCanvasWidget } from '../helpers/DemoCanvasWidget';
 
 import { EditableLabelFactory } from './EditableLabelFactory';

@@ -1,5 +1,5 @@
-import { LabelModel } from '@projectstorm/react-diagrams';
-import { BaseModelOptions, DeserializeEvent } from '@projectstorm/react-canvas-core';
+import { LabelModel } from '@nosferatu500/react-diagrams';
+import { BaseModelOptions, DeserializeEvent } from '@nosferatu500/react-canvas-core';
 
 export interface EditableLabelOptions extends BaseModelOptions {
 	value?: string;

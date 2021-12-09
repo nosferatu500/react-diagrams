@@ -3,19 +3,19 @@ import {
 	DiagramEngine,
 	LinkLayerFactory,
 	NodeLayerFactory
-} from '@projectstorm/react-diagrams-core';
+} from '@nosferatu500/react-diagrams-core';
 import {
 	DefaultLabelFactory,
 	DefaultLinkFactory,
 	DefaultNodeFactory,
 	DefaultPortFactory
-} from '@projectstorm/react-diagrams-defaults';
-import { PathFindingLinkFactory } from '@projectstorm/react-diagrams-routing';
-import { SelectionBoxLayerFactory, CanvasEngineOptions } from '@projectstorm/react-canvas-core';
+} from '@nosferatu500/react-diagrams-defaults';
+import { PathFindingLinkFactory } from '@nosferatu500/react-diagrams-routing';
+import { SelectionBoxLayerFactory, CanvasEngineOptions } from '@nosferatu500/react-canvas-core';
 
-export * from '@projectstorm/react-diagrams-core';
-export * from '@projectstorm/react-diagrams-defaults';
-export * from '@projectstorm/react-diagrams-routing';
+export * from '@nosferatu500/react-diagrams-core';
+export * from '@nosferatu500/react-diagrams-defaults';
+export * from '@nosferatu500/react-diagrams-routing';
 
 /**
  * Construct an engine with the defaults installed

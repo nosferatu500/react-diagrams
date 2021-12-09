@@ -1,5 +1,5 @@
-import { NodeModel, DefaultPortModel } from '@projectstorm/react-diagrams';
-import { BaseModelOptions } from '@projectstorm/react-canvas-core';
+import { NodeModel, DefaultPortModel } from '@nosferatu500/react-diagrams';
+import { BaseModelOptions } from '@nosferatu500/react-canvas-core';
 
 export interface TSCustomNodeModelOptions extends BaseModelOptions {
 	color?: string;
